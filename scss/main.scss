@@ -1,0 +1,48 @@
+$light-gray: #efefef;
+h1,
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.bg-gris {
+    background-color: gray;
+}
+
+main h1,
+header h1,
+p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.mb-3,
+.btn-primary {
+    margin: 10px;
+}
+
+.words {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 0;
+    line-height: 1.5;
+    text-align: center;
+    & span {
+        font-size: 3rem;
+        display: inline-block;
+        animation: move 3s ease-in-out infinite;
+        animation-direction: alternate;
+    }
+}
+
+.container,
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@import "_nav";
+@import "_footer";
+@import "_galeria";
+@import "_animation";

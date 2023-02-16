@@ -1,0 +1,11 @@
+@keyframes move {
+    0% {
+        transform: translate(-30%, 0);
+    }
+    50% {
+        text-shadow: black;
+    }
+    100% {
+        transform: translate(30%, 0);
+    }
+}
